@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="Innovation Table" max_length="40" name="x_143753_innovate_innovation_table" type="collection"/>
+</database>

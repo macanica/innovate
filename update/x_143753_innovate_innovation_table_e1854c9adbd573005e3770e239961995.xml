@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_143753_innovate_innovation_table">
+    <x_143753_innovate_innovation_table action="INSERT_OR_UPDATE">
+        <number>INNOVATION: 0001004</number>
+        <projectreference/>
+        <sys_class_name>x_143753_innovate_innovation_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-10 18:18:19</sys_created_on>
+        <sys_id>e1854c9adbd573005e3770e239961995</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Innovate" source="x_143753_innovate">c388378adb9573005e3770e2399619bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">c388378adb9573005e3770e2399619bd</sys_scope>
+        <sys_update_name>x_143753_innovate_innovation_table_e1854c9adbd573005e3770e239961995</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-10 18:27:22</sys_updated_on>
+        <u_description>My idea is to stop using text to mark parent tickets of problems. We should start using problem tickets and have calls on the issue be logged as child incidents of the parent problem.&#13;
+&#13;
+This will allow more granular data to be obtained by our reporting team.</u_description>
+        <u_idea_type>process</u_idea_type>
+        <u_implemented>true</u_implemented>
+        <u_short_description>Idea to improve servicedesk proccess for *lead* tickets.</u_short_description>
+    </x_143753_innovate_innovation_table>
+</record_update>

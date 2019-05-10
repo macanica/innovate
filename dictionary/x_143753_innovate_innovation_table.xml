@@ -1,3 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="update_synch=true" extends="sys_metadata" label="Innovation Table" max_length="40" name="x_143753_innovate_innovation_table" type="collection"/>
+    <element attributes="update_synch=true" extends="sys_metadata" label="Innovation" max_length="40" name="x_143753_innovate_innovation_table" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Request Reference" max_length="32" name="projectreference" reference="sc_request" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" mandatory="true" max_length="1000" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="process" label="Idea Type" mandatory="true" max_length="40" name="u_idea_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Cost Savings" sequence="0" value="cost"/>
+                <element inactive_on_update="false" label="Process Improvment" sequence="1" value="process"/>
+                <element inactive_on_update="false" label="Team Building" sequence="2" value="team"/>
+            </choice>
+        </element>
+        <element label="Idea implemented" max_length="40" name="u_implemented" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" mandatory="true" max_length="125" name="u_short_description" type="string"/>
+        <index name="index">
+            <element name="projectreference"/>
+        </index>
+    </element>
 </database>
